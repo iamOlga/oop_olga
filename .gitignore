@@ -1,3 +1,7 @@
-
-2lab/
-!.cs
+2lab/.vs
+2lab/bin
+2lab/obj
+2lab/Properties
+2lab/2lab.csproj
+2lab/2lab.sln
+2lab/App.config
