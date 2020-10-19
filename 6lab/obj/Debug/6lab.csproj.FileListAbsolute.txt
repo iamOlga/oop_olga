@@ -1,0 +1,7 @@
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\6lab\bin\Debug\6lab.exe.config
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\6lab\bin\Debug\6lab.exe
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\6lab\bin\Debug\6lab.pdb
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\6lab\obj\Debug\6lab.csprojAssemblyReference.cache
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\6lab\obj\Debug\6lab.csproj.CoreCompileInputs.cache
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\6lab\obj\Debug\6lab.exe
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\6lab\obj\Debug\6lab.pdb
