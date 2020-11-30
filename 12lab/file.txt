@@ -1,0 +1,25 @@
+Name: Vector
+IsClass: True
+IsArray: False
+IsInterface: False
+IsEnum: False
+------------------
+Методы: 
+Void Random()
+Void OutputArr()
+Boolean Equals(System.Object)
+Int32 GetHashCode()
+System.Type GetType()
+System.String ToString()
+------------------
+Методы, которые содержат заданный тип параметра: 
+------------------
+Поля: 
+Int32[] items
+Int32 count
+------------------
+Свойства класса: 
+------------------
+Интерфейсы: 
+_12lab.iInterface
+------------------
