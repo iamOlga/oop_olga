@@ -41,6 +41,12 @@ namespace _12lab
             }
             Console.Write("\n");
         }
+        public void Sum(int a)
+        {
+            Console.Write("Сумма: ");
+            int b = 5;
+            Console.Write(a + b);
+        }
     }
     class Reflector
     {
@@ -59,7 +65,7 @@ namespace _12lab
             Console.WriteLine(str);
         }
 
-        public static void FileInfo(Type t)
+        public static void ToFile(Type t)
         {
             StreamWriter info = new StreamWriter(@"C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\12lab\file.txt");
             bool isinterface = t.IsInterface; //возвращает true, если тип представляет интерфейс
@@ -74,45 +80,50 @@ namespace _12lab
             WriteToFile(info, "IsEnum: " + isenum);
             WriteToFile(info, "------------------");
 
-            MethodInfo[] methods = t.GetMethods();//b. извлекает все общедоступные публичные методы
+            MethodInfo[] methods = t.GetMethods();// извлекает все общедоступные публичные методы
             WriteToFile(info, "Методы: ");
             foreach (var m in methods)
                 WriteToFile(info, m.ToString()); WriteToFile(info, "------------------");
 
-            WriteToFile(info, "Методы, которые содержат заданный тип параметра: ");//е. 
-            foreach (var e in methods)
-            {
-                var argument = e.GetParameters();// получаем параметры
-                foreach (var a in argument)
-                    if (a.ParameterType == typeof(Vector))
-                        WriteToFile(info, e.ToString());
-            }
-            WriteToFile(info, "------------------");
-
-            FieldInfo[] fields = t.GetFields();//с. получает информацию о полях класса
+            FieldInfo[] fields = t.GetFields();// получает информацию о полях класса
             WriteToFile(info, "Поля: ");
             foreach (var f in fields)
                 WriteToFile(info, f.ToString()); WriteToFile(info, "------------------");
 
-            PropertyInfo[] properties = t.GetProperties();//с. получает информацию о свойствах класса
+            PropertyInfo[] properties = t.GetProperties();// получает информацию о свойствах класса
             WriteToFile(info, "Свойства класса: ");
             foreach (var p in properties)
                 WriteToFile(info, p.ToString()); WriteToFile(info, "------------------");
 
-            Type[] interfaces = t.GetInterfaces();//d. получает все реализованные классом интерфейсы;
+            Type[] interfaces = t.GetInterfaces();// получает все реализованные классом интерфейсы;
             WriteToFile(info, "Интерфейсы: ");
             foreach (var i in interfaces)
                 WriteToFile(info, i.ToString()); WriteToFile(info, "------------------");
             info.Close();
+        }
+
+        public static void InsaneMethod(Vector obj, string mth)//f.
+        {
+            FileStream f = new FileStream(@"C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\12lab\message.txt", FileMode.Open);
+            StreamReader reader = new StreamReader(f);
+            object[] stroke = { Convert.ToInt32(reader.ReadLine()) };
+            Type t = typeof(Vector);
+            MethodInfo metod = t.GetMethod(mth);
+            object m = metod.Invoke(obj, stroke);
+            Console.WriteLine(m);
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
-            Reflector.FileInfo(typeof(Vector));
+            Vector vector = new Vector(5);
+            Reflector.ToFile(typeof(Vector));
             Console.WriteLine("\n");
-            Reflector.ReadFile(typeof(Vector), "Random");
+
+            Vector vector2 = new Vector(7);
+            Console.WriteLine("Получение параметров и вызов метода:");
+            Reflector.InsaneMethod(vector2, "Sum");
 
             Console.ReadKey();
         }

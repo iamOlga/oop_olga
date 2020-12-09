@@ -7,12 +7,11 @@ IsEnum: False
 Методы: 
 Void Random()
 Void OutputArr()
+Void Sum(Int32)
 Boolean Equals(System.Object)
 Int32 GetHashCode()
 System.Type GetType()
 System.String ToString()
-------------------
-Методы, которые содержат заданный тип параметра: 
 ------------------
 Поля: 
 Int32[] items
