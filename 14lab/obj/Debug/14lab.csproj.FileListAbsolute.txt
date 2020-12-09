@@ -1,0 +1,8 @@
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\14lab\bin\Debug\14lab.exe.config
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\14lab\bin\Debug\14lab.exe
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\14lab\bin\Debug\14lab.pdb
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\14lab\obj\Debug\14lab.csprojAssemblyReference.cache
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\14lab\obj\Debug\14lab.csproj.CoreCompileInputs.cache
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\14lab\obj\Debug\14lab.exe
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\14lab\obj\Debug\14lab.pdb
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\14lab\obj\Debug\14lab.csproj.CopyComplete
