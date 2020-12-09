@@ -1,0 +1,7 @@
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\13lab\bin\Debug\13lab.exe.config
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\13lab\bin\Debug\13lab.exe
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\13lab\bin\Debug\13lab.pdb
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\13lab\obj\Debug\13lab.csprojAssemblyReference.cache
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\13lab\obj\Debug\13lab.csproj.CoreCompileInputs.cache
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\13lab\obj\Debug\13lab.exe
+C:\Users\Ольга\Desktop\study\2 курс\ооп\oop_olga\13lab\obj\Debug\13lab.pdb
